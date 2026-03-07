@@ -96,7 +96,6 @@
             placeholder.style.display = 'none';
             loading.style.display = 'block';
 
-            // 构建 Pollinations AI URL
             // 格式: https://pollinations.ai/p/[prompt]?width=1024&height=1024&seed=42&model=flux
             const encodedPrompt = encodeURIComponent(prompt);
             const randomSeed = Math.floor(Math.random() * 1000000);
